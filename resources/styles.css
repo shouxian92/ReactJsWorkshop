@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+.MainCaption {
+    font-family: "Open Sans";
+    color: #0000ff;
+}
