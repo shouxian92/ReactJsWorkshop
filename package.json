@@ -1,0 +1,23 @@
+{
+  "name": "react-js-workshop",
+  "version": "0.0.1",
+  "description": "React.js Workshop Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benglin/ReactJsWorkshop.git"
+  },
+  "keywords": [
+    "React.js",
+    "Workshop"
+  ],
+  "author": "Dynamo Singapore Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Benglin/ReactJsWorkshop/issues"
+  },
+  "homepage": "https://github.com/Benglin/ReactJsWorkshop#readme"
+}
