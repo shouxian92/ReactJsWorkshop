@@ -21,7 +21,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/packages", function(req, res) {
-  loadJsonFromFile("./resources/data/package.json", req, res);
+  loadJsonFromFile("./resources/data/packages.json", req, res);
 });
 
 app.listen(3000, function () {
