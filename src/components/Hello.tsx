@@ -1,7 +1,11 @@
 import * as React from "react";
 
-export class Hello extends React.Component<undefined, undefined> {
+export interface HelloProps {
+    name: string
+}
+
+export class Hello extends React.Component<HelloProps, undefined> {
     render() {
-        return <div className="MainCaption">Hello from React.js!</div>;
+        return <div className="MainCaption">Hello from {this.props.name}!</div>;
     }
 }
