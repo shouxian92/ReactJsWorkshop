@@ -3,7 +3,41 @@
     src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-.MainCaption {
+.ItemContainer {
     font-family: "Open Sans";
-    color: #0000ff;
+    display: flex;
+    box-shadow: 2px 2px 1px #888888;
+}
+
+.ItemLeftPanel {
+    background: cornflowerblue;
+}
+
+.PackageIcon {
+    margin: 6px;
+}
+
+.ItemRightPanel {
+    flex-grow: 2;
+    padding: 6px;
+    background: greenyellow;
+}
+
+.PackageCaption {
+    font-size: 1.5em;
+}
+
+.PackageVersion {
+    font-size: 0.5em;
+    padding-left: 6px;
+}
+
+.PackageAuthor {
+    font-size: 0.75em;
+    color: grey;
+}
+
+.PackageDescription {
+    font-size: 0.8em;
+    margin-top: 12px;
 }
