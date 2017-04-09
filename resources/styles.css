@@ -18,6 +18,8 @@
 }
 
 .ItemRightPanel {
+    display: flex;
+    flex-direction: column;
     flex-grow: 2;
     padding: 6px;
     background: greenyellow;
@@ -40,4 +42,12 @@
 .PackageDescription {
     font-size: 0.8em;
     margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.DescExpanderText {
+    cursor: pointer;
+    align-self: flex-end;
+    font-size: 0.8em;
+    color: grey;
 }
