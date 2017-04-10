@@ -54,7 +54,7 @@ export class PackageItem extends React.Component<PackageItemProps, PackageItemSt
                 <img className="PackageIcon" src="/resources/icons/package.png" />
             </div>
             <div className="ItemRightPanel">
-                <div className="PackageCaption">{ this.props.index }{ pkg.name }<span className="PackageVersion">{ latest.version }</span></div>
+                <div className="PackageCaption">{ pkg.name }<span className="PackageVersion">{ latest.version }</span></div>
                 <div className="PackageAuthor">by { maintainer.username }</div>
                 <div className="PackageDescription">{ description }</div>
                 <div className="DescExpanderText" onClick={ this.toggleExpandState }>[{ expanderText }]</div>
