@@ -19,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/Benglin/ReactJsWorkshop/issues"
   },
-  "homepage": "https://github.com/Benglin/ReactJsWorkshop#readme"
+  "homepage": "https://github.com/Benglin/ReactJsWorkshop#readme",
+  "dependencies": {
+    "express": "^4.15.5",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.31",
+    "@types/react": "^16.0.7",
+    "@types/react-dom": "^15.5.5",
+    "awesome-typescript-loader": "^3.2.3",
+    "source-map-loader": "^0.2.1"
+  }
 }
