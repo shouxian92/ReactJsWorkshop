@@ -1,5 +1,23 @@
 var express = require("express");
 var app = express();
+// File: index.js
+var fs = require("fs");
+
+function loadJsonFromFile(jsonPath, req, res) {
+
+  fs.readFile(jsonPath, function(err, data) {
+    if (err) {
+      res.end(err.message);
+    } else {
+      res.writeHead(200, { "Content-Type": "application/json" });
+      res.end(data.toString());
+    }
+  });
+}
+
+app.get("/packages", function(req, res) {
+  loadJsonFromFile("./resources/data/packages.json", req, res);
+});
 
 app.use(express.static(__dirname));
 
